@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
+  - Civilians
+  - Guards
+  - Enemys
+  - Constructions
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Construction
+    uniqueID: 912822851
+    locked: 0
+  - name: Units
+    uniqueID: 2394637927
     locked: 0

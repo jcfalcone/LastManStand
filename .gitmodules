@@ -1,0 +1,6 @@
+[submodule "Assets/Tools/BehaviorTool"]
+	path = Assets/Tools/BehaviorTool
+	url = https://github.com/jcfalcone/BehaviorTool.git
+[submodule "Assets/Scripts/UnityUtilities"]
+	path = Assets/Scripts/UnityUtilities
+	url = https://github.com/jcfalcone/UnityUtilities.git

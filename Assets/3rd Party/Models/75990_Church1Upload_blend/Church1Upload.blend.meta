@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: c17a94c00829743d7b473a1fcb8c68a6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bell
+    100002: //RootNode
+    100004: Clapper
+    100006: ClockHolder
+    100008: CopperRoof
+    100010: FrontDoor
+    100012: Innansorra
+    100014: SideDoor
+    100016: SideStairs
+    100018: StoneBeams
+    100020: StoneBrickWalls
+    100022: StoneRoof
+    100024: SunSymbol
+    100026: WindowBars
+    100028: Windows
+    400000: Bell
+    400002: //RootNode
+    400004: Clapper
+    400006: ClockHolder
+    400008: CopperRoof
+    400010: FrontDoor
+    400012: Innansorra
+    400014: SideDoor
+    400016: SideStairs
+    400018: StoneBeams
+    400020: StoneBrickWalls
+    400022: StoneRoof
+    400024: SunSymbol
+    400026: WindowBars
+    400028: Windows
+    2100000: Black__Black
+    2100002: Metal__Metal_jpg
+    2100004: RoofTiles3__RoofTiles3_jpg
+    2100006: GreyBrick2__GreyBricks2_jpg
+    2100008: Stone__Stone_jpg
+    2100010: WroughtIron__WroughtIron_jpg
+    2100012: Wood__Wood_jpg
+    2100014: Marble__marble_jpg
+    2100016: ChurchDoor1__ChurchDoor1_jpg
+    2100018: Marble
+    2100020: DoorType1_2__DoorType1_1_jpg_001
+    2100022: LogEdgeWeathered__TreeLogEdgeWeathered_jpg
+    2100024: RustedMetal__Rusted_Metal_jpg
+    2300000: Bell
+    2300002: Clapper
+    2300004: ClockHolder
+    2300006: CopperRoof
+    2300008: FrontDoor
+    2300010: Innansorra
+    2300012: SideDoor
+    2300014: SideStairs
+    2300016: StoneBeams
+    2300018: StoneBrickWalls
+    2300020: StoneRoof
+    2300022: SunSymbol
+    2300024: WindowBars
+    2300026: Windows
+    3300000: Bell
+    3300002: Clapper
+    3300004: ClockHolder
+    3300006: CopperRoof
+    3300008: FrontDoor
+    3300010: Innansorra
+    3300012: SideDoor
+    3300014: SideStairs
+    3300016: StoneBeams
+    3300018: StoneBrickWalls
+    3300020: StoneRoof
+    3300022: SunSymbol
+    3300024: WindowBars
+    3300026: Windows
+    4300000: Windows
+    4300002: CopperRoof
+    4300004: StoneBrickWalls
+    4300006: SideStairs
+    4300008: WindowBars
+    4300010: ClockHolder
+    4300012: Bell
+    4300014: Clapper
+    4300016: SunSymbol
+    4300018: FrontDoor
+    4300020: StoneRoof
+    4300022: StoneBeams
+    4300024: Innansorra
+    4300026: SideDoor
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black__Black
+    second: {fileID: 2100000, guid: 3f8e05a93afa44a2aae045329ca9d773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChurchDoor1__ChurchDoor1_jpg
+    second: {fileID: 2100000, guid: 89ad3b8185be540049b0b22f73da80f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorType1_2__DoorType1_1_jpg_001
+    second: {fileID: 2100000, guid: 1071c42ac22ec43f89e47d8e238483f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreyBrick2__GreyBricks2_jpg
+    second: {fileID: 2100000, guid: d505186668a6648f18b8191667aef755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LogEdgeWeathered__TreeLogEdgeWeathered_jpg
+    second: {fileID: 2100000, guid: 7e5e9ee3f2396489aabd86b051834e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marble
+    second: {fileID: 2100000, guid: 18652c771cff145a0bdc38618b3f4835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marble__marble_jpg
+    second: {fileID: 2100000, guid: e7a2b5caa8ace428a9a29e7fcf71ba67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal__Metal_jpg
+    second: {fileID: 2100000, guid: b61b52a1fa7f949d5987ba87e33f62dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofTiles3__RoofTiles3_jpg
+    second: {fileID: 2100000, guid: 8321ed2f4249941148523d99ac2276b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RustedMetal__Rusted_Metal_jpg
+    second: {fileID: 2100000, guid: da635539f7be74780ac27d7f36bab676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone__Stone_jpg
+    second: {fileID: 2100000, guid: c6a1214b00ce44389a87e15022115f71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood__Wood_jpg
+    second: {fileID: 2100000, guid: 4b69819abb67840fd8ae5376cdd20348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WroughtIron__WroughtIron_jpg
+    second: {fileID: 2100000, guid: 8454195d44cee460e995610b8a62e79f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

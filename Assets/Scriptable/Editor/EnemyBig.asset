@@ -1,0 +1,1772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e2c3ca62fec4d16a3d32f721c7fa7b, type: 3}
+  m_Name: EnemyBig
+  m_EditorClassIdentifier: 
+  currentID: 20
+  windows:
+  - ID: 0
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 218
+      width: 200
+      height: 100
+    title: 'State : BigIdle (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 1
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 91
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 74
+          y: 218
+          width: 200
+          height: 100
+        title: 'State : BigIdle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 12
+      previousCondition: {fileID: 11400000, guid: 84c4299a1a116467cb95705fd7ceb6d4,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 2
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 218
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 74
+          y: 218
+          width: 200
+          height: 100
+        title: 'State : BigIdle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 13
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 3
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 370
+      y: 341
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 74
+          y: 218
+          width: 200
+          height: 100
+        title: 'State : BigIdle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 14
+      previousCondition: {fileID: 11400000, guid: ddc5b504cc6f94d93a67ddfe8aba65c9,
+        type: 2}
+      transitionID: 2
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 4
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 620
+      width: 200
+      height: 100
+    title: 'State : BigMoveToTarget (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 5
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 364
+      y: 502
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 4
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 81
+          y: 620
+          width: 200
+          height: 100
+        title: 'State : BigMoveToTarget (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 15
+      previousCondition: {fileID: 11400000, guid: 23d549152a0e2404eb128634da158b9b,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 6
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 362
+      y: 619
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 4
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 81
+          y: 620
+          width: 200
+          height: 100
+        title: 'State : BigMoveToTarget (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 16
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 7
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 356
+      y: 741
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 4
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 81
+          y: 620
+          width: 200
+          height: 100
+        title: 'State : BigMoveToTarget (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 19
+      previousCondition: {fileID: 11400000, guid: ddc5b504cc6f94d93a67ddfe8aba65c9,
+        type: 2}
+      transitionID: 2
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 8
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 163
+      width: 200
+      height: 100
+    title: 'State : BigDead (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 9
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 799
+      y: 464
+      width: 200
+      height: 560
+    title: 'State : BigAttack (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 10
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1075
+      y: 410
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 9
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 799
+          y: 464
+          width: 200
+          height: 520
+        title: 'State : BigAttack (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f,
+            type: 2}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 17
+      previousCondition: {fileID: 11400000, guid: a32056ca88f4d4c728a635cb1daff508,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 11
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1078
+      y: 529
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 9
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 799
+          y: 464
+          width: 200
+          height: 520
+        title: 'State : BigAttack (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f,
+            type: 2}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 18
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 12
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 112
+      width: 130
+      height: 50
+    title: 'Portal : BigMoveToTarget'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 424f7835cd82d48b4aae319d6cdda2c6, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 13
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 242
+      width: 130
+      height: 50
+    title: 'Portal : BigDead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 14
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 617
+      y: 355
+      width: 130
+      height: 50
+    title: 'Portal : BigAttack'
+    stateData:
+      behaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 15
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 616
+      y: 523
+      width: 130
+      height: 50
+    title: 'Portal : BigIdle'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 16
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 637
+      width: 130
+      height: 50
+    title: 'Portal : BigDead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 17
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1337
+      y: 415
+      width: 130
+      height: 50
+    title: 'Portal : BigIdle'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 18
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1350
+      y: 538
+      width: 130
+      height: 50
+    title: 'Portal : BigDead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 19
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 616
+      y: 759
+      width: 130
+      height: 50
+    title: 'Portal : BigAttack'
+    stateData:
+      behaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: ba635bc1f43d94b0e894a161dc83224f, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  indexToDelete: 

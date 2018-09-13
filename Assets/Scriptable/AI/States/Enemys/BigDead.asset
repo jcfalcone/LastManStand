@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86876473477ff49b0b58ec070008cd48, type: 3}
+  m_Name: BigDead
+  m_EditorClassIdentifier: 
+  onEnter:
+  - {fileID: 11400000, guid: 0d21d4947a2c04f6badc4b988eca0419, type: 2}
+  - {fileID: 11400000, guid: c76a4a36ae7304bc09b56cf08835f53b, type: 2}
+  - {fileID: 11400000, guid: 1803c5c9a1f2c43419cc654e257e1bb6, type: 2}
+  onTick:
+  - {fileID: 11400000, guid: 1fe49cdf3c4a54e8bab672c621877786, type: 2}
+  onFixedTick: []
+  onLateTick: []
+  onExit: []
+  transitions: []
+  currentID: 0

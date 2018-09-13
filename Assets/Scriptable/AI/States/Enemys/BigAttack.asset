@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86876473477ff49b0b58ec070008cd48, type: 3}
+  m_Name: BigAttack
+  m_EditorClassIdentifier: 
+  onEnter:
+  - {fileID: 11400000, guid: bae6b44e91e0641b78a711d957901349, type: 2}
+  - {fileID: 11400000, guid: 51d3e087f0a2d4c1285b1a55fdb8f450, type: 2}
+  onTick:
+  - {fileID: 11400000, guid: 69e0011b3f3db41e6819812ba4ecb4dd, type: 2}
+  - {fileID: 11400000, guid: d51bef2b2ca2d40098ea063805a8f1c4, type: 2}
+  - {fileID: 11400000, guid: a61aa7fc47d3e401fa524bed4c81f038, type: 2}
+  - {fileID: 11400000, guid: 0678f63df1cbd4e7c8a73fda0a5a00d3, type: 2}
+  - {fileID: 11400000, guid: 569f85b0aa76b403eb1c94bf581bbc8d, type: 2}
+  - {fileID: 11400000, guid: 9c0cbafebfb5a4b03b696c1e6db3fc87, type: 2}
+  onFixedTick: []
+  onLateTick: []
+  onExit:
+  - {fileID: 11400000, guid: efbbf93c47a6c4565ab2a15b6c9ef2e8, type: 2}
+  transitions:
+  - ID: 0
+    targetBehaviour: {fileID: 11400000, guid: 2d023f79cd8434a29a9db06067978a10, type: 2}
+    condition: {fileID: 11400000, guid: a32056ca88f4d4c728a635cb1daff508, type: 2}
+    disabled: 0
+  - ID: 1
+    targetBehaviour: {fileID: 11400000, guid: 785814fcdfc28454498663a22e6520bc, type: 2}
+    condition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56, type: 2}
+    disabled: 0
+  currentID: 2

@@ -1,0 +1,2387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e2c3ca62fec4d16a3d32f721c7fa7b, type: 3}
+  m_Name: Citizen
+  m_EditorClassIdentifier: 
+  currentID: 28
+  windows:
+  - ID: 0
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 320
+      width: 200
+      height: 100
+    title: 'State : MoveAround (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 1
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 259
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 64
+          y: 90
+          width: 200
+          height: 100
+        title: 'State : MoveAround (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 4
+      previousCondition: {fileID: 11400000, guid: 23d549152a0e2404eb128634da158b9b,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 2
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 99
+      width: 200
+      height: 100
+    title: 'State : Idle (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 3
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 411
+      y: 35
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 2
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 69
+          y: 270
+          width: 200
+          height: 100
+        title: 'State : Idle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 5
+      previousCondition: {fileID: 11400000, guid: 84c4299a1a116467cb95705fd7ceb6d4,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 4
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 675
+      y: 272
+      width: 130
+      height: 50
+    title: 'Portal : Idle'
+    stateData:
+      behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 5
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 55
+      width: 130
+      height: 50
+    title: 'Portal : MoveAround'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 6
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 605
+      width: 200
+      height: 100
+    title: 'State : Flee (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 7
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 409
+      y: 147
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 2
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 55
+          y: 108
+          width: 200
+          height: 100
+        title: 'State : Idle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 9
+      previousCondition: {fileID: 11400000, guid: f3a62844c986b464092063ceb0324c26,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 8
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 371
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 49
+          y: 326
+          width: 200
+          height: 100
+        title: 'State : MoveAround (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 10
+      previousCondition: {fileID: 11400000, guid: f3a62844c986b464092063ceb0324c26,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 9
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 665
+      y: 146
+      width: 130
+      height: 50
+    title: 'Portal : Flee'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 10
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 678
+      y: 373
+      width: 130
+      height: 50
+    title: 'Portal : Flee'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 11
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 848
+      y: 63
+      width: 200
+      height: 100
+    title: 'State : Hidden (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 12
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 403
+      y: 495
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 6
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 65
+          y: 550
+          width: 200
+          height: 100
+        title: 'State : Flee (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 13
+      previousCondition: {fileID: 11400000, guid: ee296621cb3144411b0d90c8351e82c7,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 13
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 508
+      width: 130
+      height: 50
+    title: 'Portal : Hidden'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 14
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 402
+      y: 613
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 6
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 65
+          y: 550
+          width: 200
+          height: 100
+        title: 'State : Flee (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 15
+      previousCondition: {fileID: 11400000, guid: 098643cb845314649b753bcb984d291f,
+        type: 2}
+      transitionID: 1
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 15
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 682
+      y: 622
+      width: 130
+      height: 50
+    title: 'Portal : Idle'
+    stateData:
+      behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 16
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1112
+      y: 43
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 11
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 848
+          y: 58
+          width: 200
+          height: 420
+        title: 'State : Hidden (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 0eddf9be5b8414068812dbd54a46089e,
+            type: 2}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 17
+      previousCondition: {fileID: 11400000, guid: ae8ff7a20e52448bf8a0a247a40ef8df,
+        type: 2}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 17
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 1370
+      y: 69
+      width: 130
+      height: 50
+    title: 'Portal : MoveAround'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 18
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 730
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 6
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 41
+          y: 612
+          width: 200
+          height: 100
+        title: 'State : Flee (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 19
+      previousCondition: {fileID: 11400000, guid: 23d549152a0e2404eb128634da158b9b,
+        type: 2}
+      transitionID: 2
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 19
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 678
+      y: 728
+      width: 130
+      height: 50
+    title: 'Portal : Idle'
+    stateData:
+      behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 20
+    node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 857
+      y: 325
+      width: 200
+      height: 100
+    title: 'State : Dead (StateBehaviour)'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      collapse: 1
+      prevCollapse: 1
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 22
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 19
+      y: 432
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 56
+          y: 320
+          width: 200
+          height: 100
+        title: 'State : MoveAround (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 4d0668eaea7134ad695b65011d606231,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 26
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 2
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 23
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 19
+      y: 212
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 2
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 55
+          y: 108
+          width: 200
+          height: 100
+        title: 'State : Idle (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: c7b04422f4afe42c9829b6f72e94b420,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 27
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 2
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 24
+    node: {fileID: 11400000, guid: 22fcbfd69ccf447cfbc1a289417afa95, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 18
+      y: 730
+      width: 200
+      height: 100
+    title: Transition
+    stateData:
+      behaviour: {fileID: 0}
+      prevBehaviour: {fileID: 0}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 6
+        node: {fileID: 11400000, guid: e8f3c2a62fdbe4eb8bcd2305ea2575e8, type: 2}
+        rect:
+          serializedVersion: 2
+          x: 37
+          y: 592
+          width: 200
+          height: 100
+        title: 'State : Flee (StateBehaviour)'
+        stateData:
+          behaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d, type: 2}
+          prevBehaviour: {fileID: 11400000, guid: 0b7dac3856b074ab3aca9084cd47433d,
+            type: 2}
+          collapse: 1
+          prevCollapse: 1
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 1
+      targetNode: 25
+      previousCondition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56,
+        type: 2}
+      transitionID: 4
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 25
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 734
+      width: 130
+      height: 50
+    title: 'Portal : Dead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 26
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 435
+      width: 130
+      height: 50
+    title: 'Portal : Dead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  - ID: 27
+    node: {fileID: 11400000, guid: 068f33c4a285248c29b737a8aeb99691, type: 2}
+    rect:
+      serializedVersion: 2
+      x: 259
+      y: 222
+      width: 130
+      height: 50
+    title: 'Portal : Dead'
+    stateData:
+      behaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      prevBehaviour: {fileID: 11400000, guid: 4a604c5d4b9a5408689045687915e23e, type: 2}
+      collapse: 0
+      prevCollapse: 0
+      dependencies: []
+      comment: 
+    transitionData:
+      enterNode:
+        ID: 0
+        node: {fileID: 0}
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        title: 
+        stateData:
+          behaviour: {fileID: 0}
+          prevBehaviour: {fileID: 0}
+          collapse: 0
+          prevCollapse: 0
+          dependencies: []
+          comment: 
+        transitionData:
+          enterNode:
+            ID: 0
+            node: {fileID: 0}
+            rect:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+            title: 
+            stateData:
+              behaviour: {fileID: 0}
+              prevBehaviour: {fileID: 0}
+              collapse: 0
+              prevCollapse: 0
+              dependencies: []
+              comment: 
+            transitionData:
+              enterNode:
+                ID: 0
+                node: {fileID: 0}
+                rect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                title: 
+                stateData:
+                  collapse: 0
+                  prevCollapse: 0
+                  comment: 
+                transitionData:
+                  targetNode: 0
+                  transitionID: 0
+                isDuplicate: 0
+                isAssigned: 0
+              targetNode: 0
+              previousCondition: {fileID: 0}
+              transitionID: 0
+            isDuplicate: 0
+            isAssigned: 0
+          targetNode: 0
+          previousCondition: {fileID: 0}
+          transitionID: 0
+        isDuplicate: 0
+        isAssigned: 0
+      targetNode: 0
+      previousCondition: {fileID: 0}
+      transitionID: 0
+    isDuplicate: 0
+    isAssigned: 1
+  indexToDelete: 

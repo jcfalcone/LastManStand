@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a93a4c4eff543bcac4ffb9109593fa, type: 3}
+  m_Name: CameraMovement
+  m_EditorClassIdentifier: 
+  threshold: 70
+  speed: 20
+  minSpeed: 0
+  maxSpeed: 60
+  minPosition: {x: -126, y: 0, z: -126}
+  maxPosition: {x: 126, y: 0, z: 126}
+  mousePosition: {fileID: 11400000, guid: f8797ea62014e4f2d92f91b7b6a12741, type: 2}
+  cameraHolder: {fileID: 11400000, guid: 0fad349157011420b8b4f000c2ac40fb, type: 2}

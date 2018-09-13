@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03fbefe0d0dd4e3188d6a72818873d2, type: 3}
+  m_Name: CivilianAddUnit
+  m_EditorClassIdentifier: 
+  cooldown: 4
+  currUnits: {fileID: 11400000, guid: e66b52d2c4b344dc7897b22ad40a6b1c, type: 2}
+  totalUnits: {fileID: 11400000, guid: 2c0fb8465a13e4f8a92d25fa15e1c5b0, type: 2}
+  addUnitTimerPerc: {fileID: 11400000, guid: 050d32c60a636498089ec6c5e1a71f5b, type: 2}
+  uiEvent: {fileID: 11400000, guid: 825af3c45e6bc4458810235cc13f56c7, type: 2}

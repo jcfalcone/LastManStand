@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86876473477ff49b0b58ec070008cd48, type: 3}
+  m_Name: SmallAttack
+  m_EditorClassIdentifier: 
+  onEnter:
+  - {fileID: 11400000, guid: 4fd686fe6e23c4c70a77425a270795cd, type: 2}
+  - {fileID: 11400000, guid: 1b85227e7efce4bf7b71aaee875e6147, type: 2}
+  - {fileID: 11400000, guid: 837f2658f5d7147f79bdf0a1e48bcfe5, type: 2}
+  - {fileID: 11400000, guid: d6250f8dd112c435fac836253225e717, type: 2}
+  onTick:
+  - {fileID: 11400000, guid: 69e0011b3f3db41e6819812ba4ecb4dd, type: 2}
+  - {fileID: 11400000, guid: d51bef2b2ca2d40098ea063805a8f1c4, type: 2}
+  - {fileID: 11400000, guid: a61aa7fc47d3e401fa524bed4c81f038, type: 2}
+  - {fileID: 11400000, guid: 0678f63df1cbd4e7c8a73fda0a5a00d3, type: 2}
+  - {fileID: 11400000, guid: 569f85b0aa76b403eb1c94bf581bbc8d, type: 2}
+  - {fileID: 11400000, guid: 9c0cbafebfb5a4b03b696c1e6db3fc87, type: 2}
+  onFixedTick: []
+  onLateTick: []
+  onExit:
+  - {fileID: 11400000, guid: efbbf93c47a6c4565ab2a15b6c9ef2e8, type: 2}
+  - {fileID: 11400000, guid: 6ee9ac28a946d4cca893865c2047a233, type: 2}
+  transitions:
+  - ID: 0
+    targetBehaviour: {fileID: 11400000, guid: 020725fe9bae943f1afb791e9548e75d, type: 2}
+    condition: {fileID: 11400000, guid: a32056ca88f4d4c728a635cb1daff508, type: 2}
+    disabled: 0
+  - ID: 1
+    targetBehaviour: {fileID: 11400000, guid: 91174c59d0c5b47eb9075b79b70f1cfa, type: 2}
+    condition: {fileID: 11400000, guid: e7f63d0b11527497b9bd52538424ff56, type: 2}
+    disabled: 0
+  currentID: 2
