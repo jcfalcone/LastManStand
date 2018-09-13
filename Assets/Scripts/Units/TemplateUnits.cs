@@ -55,6 +55,9 @@ public class TemplateUnits : TemplateControllerCustom
 	[SerializeField]
 	public float totalHealth;
 
+	[SerializeField]
+	public Vector3 offsetUI;
+
 	public float currHealth;
 
 	public TemplateUnits lastAttacker;

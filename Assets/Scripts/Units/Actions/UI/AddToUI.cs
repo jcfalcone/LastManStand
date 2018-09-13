@@ -11,6 +11,7 @@ public class AddToUI : TemplateAction
 
 	public override void Execute(TemplateControllerCustom _controller, float _delta = 0)
 	{
-		UIManager.instance.AddUnit(_controller as TemplateUnits, this.color);
+		TemplateUnits unit = _controller as TemplateUnits;
+		UIManager.instance.AddUnit(unit, this.color, unit.offsetUI);
 	}
 }

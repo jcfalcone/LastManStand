@@ -20,8 +20,10 @@ public class CloseToBuildCondition : TemplateCondition
 		{
 			return false;
 		}
+
+		float distance = Vector3.Distance(units.targetPosition, units.transform.position);
 		
-		if(Vector3.Distance(units.targetPosition, units.transform.position) < this.minDistance)
+		if(distance < this.minDistance)
 		{
 			if(this.checkUnitsSlot && !CityMaster.instance.HasFreeSlot(units.targetBuild))
 			{

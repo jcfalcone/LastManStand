@@ -44,7 +44,7 @@ public class HealthBarLocal : UIElement
 
 		if(Vector3.Distance(targetPos, transform.position) > this.threshold)
 		{
-			transform.position = targetPos;
+			transform.position = targetPos + this.offset;
 			return;
 		}
 
@@ -53,9 +53,10 @@ public class HealthBarLocal : UIElement
 		this.fillBar.fillAmount = Mathf.Lerp(this.fillBar.fillAmount, this.target.HealthRatio, _deltaTime * 2f);
 	}
 
-	public void SetTarget(TemplateUnits _target)
+	public void SetTarget(TemplateUnits _target, Vector3 _offset)
 	{
 		this.target = _target;
+		this.offset = _offset;
 	}
 
 	public void SetHealthBar(float _targetHealth)

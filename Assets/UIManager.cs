@@ -90,7 +90,7 @@ public class UIManager : Singleton<UIManager>
 		this.UpdateMiniMap();
 	}
 
-	public void AddUnit(TemplateUnits _unit, Color _color)
+	public void AddUnit(TemplateUnits _unit, Color _color, Vector3 _offset)
 	{
 		GameObject uiUnit = Instantiate(this.uiMapPrefab, this.uiMapHolder);
 		GameObject healthBar = Instantiate(this.healthBarPrefab);
@@ -109,7 +109,7 @@ public class UIManager : Singleton<UIManager>
 
 		HealthBarLocal healthBarController = healthBar.GetComponent<HealthBarLocal>();
 
-		healthBarController.SetTarget(_unit);
+		healthBarController.SetTarget(_unit, _offset);
 		
 		healthBar.SetActive(false);
 

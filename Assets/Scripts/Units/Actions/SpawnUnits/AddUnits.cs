@@ -28,6 +28,11 @@ public class AddUnits : TemplateAction
 
 	public override void Execute(TemplateControllerCustom _controller, float _delta = 0)
 	{
+		if(!AIMaster.instance.HasStarted())
+		{
+			return;
+		}
+		
 		if(this.currUnits.value >= this.totalUnits.value)
 		{
 			this.remainCoolDown = this.cooldown;

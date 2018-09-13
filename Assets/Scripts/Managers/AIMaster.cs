@@ -5,7 +5,7 @@ using Falcone.Variables;
 using Falcone.Events;
 using Falcone.BehaviourEditor;
 
-public class AIMaster : MonoBehaviour 
+public class AIMaster : Singleton<AIMaster>
 {
 	[System.Serializable]
 	public struct PrefabData
@@ -66,7 +66,15 @@ public class AIMaster : MonoBehaviour
 	[SerializeField]
 	List<TemplateUnits> units;
 
+	bool hasStarted = false;
+
 	// Use this for initialization
+
+	void Awake()
+	{
+		instance = this;
+	}
+
 	void Start () 
 	{
 		for(int count = 0; count < this.prefabs.Count; count++)
@@ -87,18 +95,6 @@ public class AIMaster : MonoBehaviour
 		for(int count = 0; count < 2; count++)
 		{
 			this.CreateUnit(2, false);
-		}
-		
-
-		for(int count = 0; count < 20; count++)
-		{
-			this.CreateUnit(4, false);
-		}
-		
-
-		for(int count = 0; count < 2; count++)
-		{
-			this.CreateUnit(3, false);
 		}
 	}
 	
@@ -182,5 +178,25 @@ public class AIMaster : MonoBehaviour
 								   this.prefabs[_index].alive.value,
 								   this.prefabs[_index].inHouse.value,
 								   this.prefabs[_index].dead.value);
+	}
+
+	public void StartGame()
+	{
+		this.hasStarted = true;
+		
+		for(int count = 0; count < 20; count++)
+		{
+			this.CreateUnit(4, false);
+		}
+		
+		for(int count = 0; count < 2; count++)
+		{
+			this.CreateUnit(3, false);
+		}
+	}
+
+	public bool HasStarted()
+	{
+		return this.hasStarted;
 	}
 }

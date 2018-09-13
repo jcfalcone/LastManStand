@@ -155,6 +155,7 @@ MonoBehaviour:
   anim: {fileID: 95713680105511110}
   collider: {fileID: 65628441693622044}
   timeInBehaviour: 0
+  isLocal: 0
   agent: {fileID: 195080273286610102}
   targetPosition: {x: 0, y: 0, z: 0}
   targetBuild: 
@@ -164,10 +165,13 @@ MonoBehaviour:
     currUnits: 0
     totalUnits: 0
     obj: {fileID: 0}
+    material: {fileID: 0}
     unitsInside: []
     currHealth: 0
     totalHealth: 0
     healthBar: {fileID: 0}
+    uiMapElement: {fileID: 0}
+    currColor: {r: 0, g: 0, b: 0, a: 0}
   TimeSinceLastEnemy: 0
   isHidden: 0
   attackCoolDown: 2
@@ -176,6 +180,7 @@ MonoBehaviour:
   attackDistance: 7
   targetEnemy: {fileID: 0}
   totalHealth: 20
+  offsetUI: {x: 0, y: 4.5, z: 0}
   currHealth: 0
   lastAttacker: {fileID: 0}
   targetEnemys: []

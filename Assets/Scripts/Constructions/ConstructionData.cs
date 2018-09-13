@@ -24,6 +24,8 @@ public class ConstructionData
 
 	public GameObject uiMapElement;
 
+	public Color currColor;
+
 	public void Init()
 	{
 		this.currUnits = 0;

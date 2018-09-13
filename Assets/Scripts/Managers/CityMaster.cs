@@ -7,10 +7,7 @@ using Falcone.Variables;
 public class CityMaster : Singleton<CityMaster> 
 {
 	[SerializeField]
-	Color FullHealth;
-
-	[SerializeField]
-	Color EndHealth;
+	List<Color> colorHealth;
 
 	[SerializeField]
 	List<ConstructionData> data;
@@ -31,6 +28,7 @@ public class CityMaster : Singleton<CityMaster>
 		{
 			this.data[count].Init();
 			this.data[count].currHealth = this.data[count].totalHealth;
+			this.data[count].currColor = this.colorHealth[this.colorHealth.Count - 1];
 		}
 
 		this.attackedList = new List<List<TemplateUnits>>();
@@ -47,7 +45,7 @@ public class CityMaster : Singleton<CityMaster>
 
 		for(int count = 0; count < this.data.Count; count++)
 		{
-			this.data[count].material.color = Color.Lerp(this.EndHealth, this.FullHealth, (float)this.data[count].currHealth / (float)this.data[count].totalHealth);
+			this.data[count].material.color = Color.Lerp(this.data[count].material.color, this.data[count].currColor, Time.deltaTime * 2);
 		}
 	}
 	
@@ -216,6 +214,16 @@ public class CityMaster : Singleton<CityMaster>
 		data.healthBar.SetHealthBar((float)data.currHealth / (float)data.totalHealth);
 
 		this.AttackedObj(_ID, _attacker);
+
+		float healthRangeSize = data.totalHealth / this.colorHealth.Count;
+		int currHealthRange = Mathf.Clamp(Mathf.FloorToInt(data.currHealth / healthRangeSize), 0, this.colorHealth.Count - 1);
+
+		if(currHealthRange >= this.colorHealth.Count)
+		{
+			currHealthRange = this.colorHealth.Count - 1;
+		}
+
+		data.currColor = this.colorHealth[currHealthRange];
 	}
 
 	public void DestroyBuild(ConstructionData _data)
